@@ -1,0 +1,14 @@
+# Build output
+bin/
+
+# macOS
+.DS_Store
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Env files with real credentials (keep sample.env tracked)
+*.env
+!sample.env
