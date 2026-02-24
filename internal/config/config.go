@@ -4,7 +4,7 @@ import (
 	"errors"
 	"os"
 
-	"github.com/henry/outlinecli/internal/credentials"
+	"outlinecli/internal/credentials"
 )
 
 const defaultBaseURL = "https://app.getoutline.com/api"

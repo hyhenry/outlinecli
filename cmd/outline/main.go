@@ -7,9 +7,9 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/henry/outlinecli/internal/api"
-	"github.com/henry/outlinecli/internal/config"
-	"github.com/henry/outlinecli/internal/credentials"
+	"outlinecli/internal/api"
+	"outlinecli/internal/config"
+	"outlinecli/internal/credentials"
 	"github.com/spf13/cobra"
 )
 

@@ -1,4 +1,4 @@
-module github.com/henry/outlinecli
+module outlinecli
 
 go 1.25.6
 
