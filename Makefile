@@ -8,7 +8,7 @@ build:
 	go build -o $(BUILD_DIR)/$(BINARY) $(CMD)
 
 install: build
-	cp $(BUILD_DIR)/$(BINARY) /usr/local/bin/$(BINARY)
+	sudo cp $(BUILD_DIR)/$(BINARY) /usr/local/bin/$(BINARY)
 	@echo "Installed to /usr/local/bin/$(BINARY)"
 
 clean:
